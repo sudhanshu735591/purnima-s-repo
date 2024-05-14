@@ -3,8 +3,6 @@ import {MDBContainer, MDBCol, MDBRow, MDBInput, MDBCheckbox } from 'mdb-react-ui
 import Button from '../Button/button';
 import { useNavigate } from "react-router-dom";
 
-
-
 function Card() {
 
 
@@ -36,6 +34,11 @@ function Card() {
         else{
             alert("either email or password wrong")
         }
+    }
+
+
+    function handleClik(){
+
     }
 
 
