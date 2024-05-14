@@ -56,20 +56,15 @@ function Card() {
             <MDBCol col='4' md='6'>
 
                 
-              <div className="d-flex  align-items-center mb-4 gap-2">
+              <div className="d-flex  align-items-center mb-4 gap-4 w-50">
                 <label htmlFor="">Email: </label>
-                <input onChange={handleEmail} type="email" name='email' />
+                <input className='w-100'  onChange={handleEmail} type="email" name='email' />
               </div>
 
-              <div className="d-flex  align-items-center mb-4 gap-2">
+              <div className="d-flex  align-items-center mb-4 gap-2 w-50">
                 <label htmlFor="">Password: </label>
-                <input onChange={handlePassword} type="email" name='email' />
+                <input className='w-100' onChange={handlePassword} type="email" name='email' />
               </div>
-
-              
-
-            {/* <MDBInput onChange={handleEmail} wrapperClass='mb-4' label='Email address' id='formControlLg' type='email' size="lg"/>
-            <MDBInput onChange={handlePassword} wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/> */}
 
             <div className="d-flex justify-content-between mb-4">
                 <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
